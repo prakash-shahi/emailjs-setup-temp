@@ -14,7 +14,7 @@ This guide will help you set up the email functionality for your patient intake 
 
 1. Log in to your EmailJS dashboard
 2. Go to **Account** → **General**
-3. Find your **Public Key** (it looks like: `x124YZPrGaddavBqI`)
+3. Find your **Public Key** (it looks like: `x124YAPrAaddavBqI`)
 4. Copy this key
 
 ### 1.3 Create an Email Service
@@ -23,7 +23,7 @@ This guide will help you set up the email functionality for your patient intake 
 2. Click **Add New Service**
 3. Choose your email provider (Gmail, Outlook, etc.)
 4. Follow the connection steps
-5. After setup, copy your **Service ID** (it looks like: `service_468aggq`)
+5. After setup, copy your **Service ID** (it looks like: `service_418aggq`)
 
 ### 1.4 Create an Email Template
 
@@ -32,7 +32,7 @@ This guide will help you set up the email functionality for your patient intake 
 3. Copy and paste the HTML template code provided separately
 4. Set the **Subject** to: `New Patient Intake - {{firstName}} {{lastName}}`
 5. Save the template
-6. Copy your **Template ID** (it looks like: `template_sab5nd21`)
+6. Copy your **Template ID** (it looks like: `template_sab2nd21`)
 
 Note: You can use any email address to receive messages. Just enter your desired address in the “To Email” field at the top right of the template form. To send to multiple emails, separate each address with a comma.
 
@@ -95,10 +95,6 @@ EmailJS free plan includes:
 - 1 email service
 
 If you need more, consider upgrading to a paid plan.
-
----
-
-**That's it! Your patient intake form should now send emails successfully.** 🎉# Patient Intake Form - EmailJS Setup Guide
 
 ---
 
