@@ -25,8 +25,6 @@ This guide will help you set up the email functionality for your patient intake 
 4. Follow the connection steps
 5. After setup, copy your **Service ID** (it looks like: `service_468aggq`)
 
-Note: You can use any email address to receive messages. Just enter your desired address in the “To Email” field at the top right of the template form. To send to multiple emails, separate each address with a comma.
-
 ### 1.4 Create an Email Template
 
 1. Go to **Email Templates** in the dashboard
@@ -35,6 +33,8 @@ Note: You can use any email address to receive messages. Just enter your desired
 4. Set the **Subject** to: `New Patient Intake - {{firstName}} {{lastName}}`
 5. Save the template
 6. Copy your **Template ID** (it looks like: `template_sab5nd21`)
+
+Note: You can use any email address to receive messages. Just enter your desired address in the “To Email” field at the top right of the template form. To send to multiple emails, separate each address with a comma.
 
 ---
 
